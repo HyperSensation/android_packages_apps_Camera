@@ -19,12 +19,12 @@
         android:id="@+id/app_root"
         android:layout_height="match_parent"
         android:layout_width="match_parent">
-    <LinearLayout
+    <RelativeLayout
             android:orientation="vertical"
             android:layout_height="match_parent"
             android:layout_width="match_parent">
         <include layout="@layout/preview_frame_video"/>
         <include layout="@layout/camera_control"/>
-    </LinearLayout>
+    </RelativeLayout>
     <include layout="@layout/bg_replacement_training_message"/>
 </RelativeLayout>
